@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Text, TextInput, Button, TouchableOpacity, Image} from 'react-native'
+import {View, Text, TextInput, Button, TouchableOpacity, Image, ScrollView} from 'react-native'
 import styles from '../styles/login'
 import {Linking} from 'react-native'
 
@@ -7,7 +7,7 @@ const Login = ({navigation}) => {
 
 
     return(
-        <View style={styles.container}>
+        <ScrollView style={styles.container}>
             <View style={styles.header}>
             <Image 
                     style={styles.imgHeader}
@@ -35,7 +35,7 @@ const Login = ({navigation}) => {
                 </View>
             </View>
 
-        </View>
+        </ScrollView>
 
     )
 }

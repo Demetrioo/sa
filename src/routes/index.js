@@ -14,7 +14,7 @@ export default function Routes(){
                 name='Login'
                 component ={Login}
                 options = {{
-                    headerShown: false
+                    headerShown: true
                 }}
             />
 
@@ -22,7 +22,7 @@ export default function Routes(){
                 name='Cadastro'
                 component ={Cadastro}
                 options = {{
-                    headerShown: false
+                    headerShown: true
                 }}
             />
 
