@@ -57,6 +57,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         marginTop: 40,
+        marginBottom: 20
     },
     p2:{
         color:'#0000FF'
